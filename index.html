@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertor Fahrenheit to Celsius and vice versa</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Fahrenheit to Celsius and vice versa Convertor</h1>
+    <p class="formula">°C = (°F - 32) x 5 / 9</p>
+
+    <h2>Input(F -> C)</h2>
+    <p>Temperature in Fahrenheit: <input id="inp-inF" type="number" /></p>
+    <p>
+      <button id="btn-toC">CONVERT</button>
+    </p>
+
+    <h2>Output(F -> C)</h2>
+    <p id="outp-toC">Temperature in Celsius: ----</p>
+
+    <p class="formula">°F = (°C x 9 / 5) + 32</p>
+
+    <h2>Input(C -> F)</h2>
+    <p>Temperature in Celsius: <input id="inp-inC" type="number" /></p>
+    <p>
+      <button id="btn-toF">CONVERT</button>
+    </p>
+    <h2>Output</h2>
+
+    <p id="outp-toF">Temperature in Fahrenheit: ----</p>
+
+    <hr />
+
+    <p>
+      <button id="refr">Refresh</button>
+    </p>
+  </body>
+</html>
